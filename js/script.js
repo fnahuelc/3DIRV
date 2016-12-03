@@ -24,11 +24,6 @@
 /* Initializing jQuery Nice Scroll
 ------------------------------------------------------ */
 
-    $("html").niceScroll({
-      cursorcolor:"#11abb0", // Set cursor color
-      cursorwidth: "8", // Sety cursor width
-      cursorborder: "" // Set cursor border color, default left none
-    });
 
 
 /*----------------------------------------------------*/
@@ -44,7 +39,7 @@
 /* Smooth Scrolling
 ------------------------------------------------------ */
 
-  
+
 
 /*----------------------------------------------------*/
 /* Appear Animation
