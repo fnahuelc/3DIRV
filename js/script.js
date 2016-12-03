@@ -24,6 +24,11 @@
 /* Initializing jQuery Nice Scroll
 ------------------------------------------------------ */
 
+    $("html").niceScroll({
+      cursorcolor:"#11abb0", // Set cursor color
+      cursorwidth: "8", // Sety cursor width
+      cursorborder: "" // Set cursor border color, default left none
+    });
 
 
 /*----------------------------------------------------*/
@@ -39,6 +44,19 @@
 /* Smooth Scrolling
 ------------------------------------------------------ */
 
+   $('.smoothscroll').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash,
+	    $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 800, 'swing', function () {
+	        window.location.hash = target;
+	    });
+
+	});
 
 
 /*----------------------------------------------------*/
@@ -203,9 +221,7 @@ function parallax() {
     });
      
     });
-
-
-
+     
 /*----------------------------------------------------*/
 /*	contact form
 ------------------------------------------------------*/
