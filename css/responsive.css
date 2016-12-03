@@ -120,7 +120,7 @@ TOC :
       background: transparent !important;
       letter-spacing: 1.5px;  
       width: auto;
-      position: fixed;
+      /*position: fixed;*/
       top: 0;
       right: 0;
    }
