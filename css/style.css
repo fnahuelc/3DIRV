@@ -1006,7 +1006,7 @@ body.show-menu #left-nav {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: url(../images/planta.jpg) no-repeat fixed center center / cover;
+   background: #212121;
    padding-top: 90px;
    padding-bottom: 60px;
 }
