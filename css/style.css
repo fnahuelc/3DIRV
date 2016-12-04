@@ -419,7 +419,6 @@ body.show-menu #left-nav {
   backface-visibility: hidden;
   position: absolute;
   left: 0;
-  border-top: 7px solid white;
   width: 100%;
   -webkit-transition: 0.25s;
   transition: 0.25s;
@@ -427,14 +426,18 @@ body.show-menu #left-nav {
 
 .menu-top {
   top: 0;
+    border-top: 7px solid #ed5565;
+
 }
 
 .menu-middle {
   top: 14px;
+    border-top: 7px solid #FFEE00;
 }
 
 .menu-bottom {
   top: 28px;
+    border-top: 7px solid #11abb0;
 }
 
 .menu-top-click {
