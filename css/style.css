@@ -1443,7 +1443,7 @@ body.show-menu #left-nav {
 	border: 1px solid #11ABB0;
 }
 
-#contact button.submit {
+#contact input.submit {
   background: none repeat scroll 0 0 #0d0d0d;
   border: medium none;
   border-radius: 3px;
@@ -1456,7 +1456,7 @@ body.show-menu #left-nav {
   text-transform: uppercase;
 }
 
-#contact button.submit:hover {
+#contact input.submit:hover {
 	color: #0D0D0D;
 	background: #fff;
 }
