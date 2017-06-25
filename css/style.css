@@ -1442,7 +1442,13 @@ body.show-menu #left-nav {
 	color: #fff;
 	border: 1px solid #11ABB0;
 }
-
+#plotly{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    text-align: center;
+}
+#plotly
 #contact input.submit {
   background: none repeat scroll 0 0 #0d0d0d;
   border: medium none;
