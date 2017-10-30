@@ -33,15 +33,13 @@ TOC :
   }
 
   #about .bio-left {
-    min-height: 600px;
-    height: auto;
+    min-height: 700px;
     padding: 60px 30px;
   }
 
   #about .main-col {
-    min-height: 600px;
+    min-height: 700px;
     padding: 20px;
-    height: auto;
   }
 
 }

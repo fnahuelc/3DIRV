@@ -270,12 +270,7 @@ function parallax() {
      /*  About us
       /*----------------------------------------------------*/
 
-     if (screen.width < 992) {
-         var nahuel = $("#nahuel");
-         $("#nahuel").remove();
-         $("#aboutUs").prepend(nahuel);
-         console.log("pasa")
-     }
+
 });
 
 
