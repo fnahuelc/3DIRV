@@ -13,8 +13,7 @@
     <meta name="description" content="Sofware for Acoustic Diagnosis and Visualization">
     <meta name="author" content="Nahuel Cacavelos fnahuelc@gmail.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -33,6 +32,7 @@
         <div class="loader"></div>
     </div>
     <header id="home">
+
         <nav id="left-nav">
             <div class="logo">
                 <img src="images/IRicon.png">
@@ -44,10 +44,11 @@
             </div>
             <ul id="nav" class="nav">
                 <li class="current"><a class="smoothscroll" href="#home"><i class="fa fa-home fa-fw"></i>Home</a></li>
-                <li><a class="smoothscroll" href="#about"><i class="fa fa-area-chart fa-fw"></i>Features</a></li>
+                <li><a class="smoothscroll" href="#about"><i class="fa fa-area-chart  fa-fw"></i>Features</a></li>
                 <li><a class="smoothscroll" href="#resume"><i class="fa fa-file-text fa-fw"></i>History</a></li>
                 <li><a class="smoothscroll" href="#portfolio"><i class="fa fa-laptop fa-fw"></i>Screenshots</a></li>
-                <li><a class="smoothscroll" href="#try_it"><i class="fa fa-briefcase fa-fw"></i>Distributions</a></li>
+                <li><a class="smoothscroll" href="#Examples"><i class="fa fa-play-circle  fa-fw"></i>Examples</a></li>
+                <li><a class="smoothscroll" href="#try_it"><i class="fa fa-briefcase  fa-fw"></i>Distributions</a></li>
                 <li><a class="smoothscroll" href="#testimonials"><i class="fa fa-user fa-fw"></i>About us</a></li>
                 <li><a class="smoothscroll" href="#contact"><i class="fa fa-envelope fa-fw"></i>Contact</a></li>
             </ul>
@@ -58,7 +59,8 @@
                 <h3 class="wow fadeInUp">
                     <span>Desktop App</span> for <span>diagnosis</span> and <span>investigation</span> of <span>room acoustic</span><br>
                     <i>"With just a spatial impulse response one can <br>
-                        calculate, plot and compare intensity vectors in three dimensions."</i>
+                        calculate, plot and compare <br>
+                        intensity vectors in three dimensions."</i>
                 </h3>
             </div>
         </div>
@@ -83,51 +85,37 @@
     <section id="about">
         <div class="row bio-container">
             <div class="twelve columns bio-inner">
-                <div class="six columns bio-left">
+                <div class="five columns bio-left">
                     <div class="pp-container">
                         <img class="profile-pic wow zoomIn" src="./images/IRicon.png" alt="" />
                         <h2>DIR360</h2>
-                        <h3>Diagnosis of Impulse Response in 360</h3>
                     </div>
+                    <h3>Diagnosis of Impulse Response in 360</h3>
+
                     <div class="pp-container download">
-                        <p>
                             <a href="#contact" class="button red"><i class="fa fa-paper-plane"></i>Contact us</a>
-                            <a href="docs/brochure.pdf" class="button" target="_blank"><i class="fa fa-download"></i>Brochure</a>
-                        </p>
+                            <a href="docs/brochure.pdf" class="button" target="_blank"><i class="no-brake fa fa-download"></i>Brochure</a>
                     </div>
                 </div>
 
-                <div id="the_parent" class="six columns main-col wow fadeIn">
+                <div class="background-alpha margin-bottom seven columns main-col wow fadeIn">
                     <div class="arrow-left"></div>
-
-                    <button data-toggle="collapse" data-target="#demo">Features</button>
-
-                    <div id="demo" class="collapse">
-                        <ul class="features center">
-                            <li>Acoustic diagnosis by spatial and temporal visualization of impulse responses.</li>
-                            <li>Segregation of direct sound and subsequent reflections of a room.</li>
-                            <li>Ease detection of acoustical problems.</li>
-                            <li>Useful for architectural acoustics, audio production and industrialnoise.</li>
+                    <div class="applications">
+                        <h3>Applications</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fa fa-check fa-2x"></i>Comprehension and characterization of the acoustic behavior</li>
+                            <li class="list-group-item"><i class="fa fa-check fa-2x"></i>Visualize the temporal distribution characteristics of the room reflections in space</li>
+                            <li class="list-group-item"><i class="fa fa-check fa-2x"></i>Observe the directional distribution of early and late energy</li>
+                            <li class="list-group-item"><i class="fa fa-check fa-2x"></i>Identify areas that generate unwanted reflections.</li>
+                            <li class="list-group-item"><i class="fa fa-check fa-2x"></i>Identify differences and similarities in acoustic characteristics.</li>
+                            <li class="list-group-item"><i class="fa fa-check fa-2x"></i>Complete set of techniques for carrying out an assessment from different perspectives.</li>
                         </ul>
                     </div>
-
-                    <button data-toggle="collapse" data-target="#demo2" data-parent="#the_parent">Applications</button>
-
-                    <div id="demo2" class="collapse">
-                        <ul class="features">
-                            <li>The advantage in the comprehension and characterization of the acoustic behavior of a room gets improved with the 3D impulse response measurements.
-                            </li>
-                            <li>Obtaining the signal direction allows us to visualize the temporal distribution characteristics of the room reflections in space, observe the directional distribution of early and late energy, and identify areas that generate
-                                unwanted reflections.
-                            </li>
-                            <li>Moreover, the comparison of the spatial components of impulse responses of various rooms can contribute to identify differences and similarities in acoustic characteristics.
-                            </li>
-                            <li>This acoustical software provides a complete set of techniques for carrying out an assessment from different perspectives.
-                            </li>
-                        </ul>
-                    </div>
-
-
+                </div>
+                <div class="row features">
+                    <div class="col-sm-4 block"><div><p>Spatial and temporal acoustic diagnosis</p></div></div>
+                    <div class="col-sm-4 block"><div><p>Segregation of direct sound and reflections</p></div></div>
+                    <div class="col-sm-4 block"><div><p>Ease detection of acoustical problems</p></div></div>
                 </div>
             </div>
         </div>
@@ -145,7 +133,7 @@
                                 <p class="timeline-event-thumbnail">September 2015</p>
                                 <h3>Start project</h3>
                                 <h4>University of Tres de Febrero, Buenos Aires, Argentina</h4>
-                                <p><strong>Begining of research in order to innovate in the analysis of acoustics</strong>
+                                <p><strong>Begining of research in order to innovate in the analysis on acoustics</strong>
                                 </p>
                             </div>
                         </li>
@@ -186,7 +174,7 @@
                                 <p class="timeline-event-thumbnail">September 2016</p>
                                 <h3>Presentation at conference</h3>
                                 <h4>Buenos Aires, Argentina</h4>
-                                <p><strong>International Congress of Acoustics</strong></p>
+                                <p><strong>International Congress on Acoustics</strong></p>
                                 <a href="http://asa.scitation.org/doi/10.1121/1.4970923" class="button">Download
                                 full paper</a>
                             </div>
@@ -343,70 +331,97 @@
                 </div>
             </div>
             <div id="modal-01" class="popup-modal mfp-hide">
-                <img class="scale-with-grid" src="images/toolbar.png" alt="" />
-                <div class="description-box">
-                    <h4>Toolbar</h4>
-                    <ul>
-                        <li><strong>Python: </strong>Native options of the window.</li>
-                        <li><b>File: </b>Allows you to clean the project window, save the measurement set in a project or open a pre-existing one.</li>
-                        <li><b>Import: </b>You can import an image from the plant view to be used in the plant graphic flap (See Figure 12), import an audio file (wav) in format B or in format A. It allows the import of a single multichannel audio file or
-                            four mono files.</li>
-                        <li><b>Export: </b>Through Plotly, you export the three-dimensional graphic in an interactive HTML file. The visualization allows to rotate the view to visualize the IR. It also supports exporting the data to an Excel file.</li>
-                    </ul>
-                    <span class="categories"><i class="fa fa-tag"></i>Toolbar</span>
+                <div class="scrolling-content">
+
+                    <img class="scale-with-grid" src="images/toolbar.png" alt="" />
+                    <p class="scroll_button animated bounce infinite">
+                        <a href="#" onclick="scrollWin();"><i class="fa fa-angle-double-down"></i></a>
+                    </p>
+                    <div class="description-box">
+                        <h4>Toolbar</h4>
+                        <ul>
+                            <li><strong>Python: </strong>Native options of the window.</li>
+                            <li><b>File: </b>Allows you to clean the project window, save the measurement set in a project or open a pre-existing one.</li>
+                            <li><b>Import: </b>You can import an image from the plant view to be used in the plant graphic flap (See Figure 12), import an audio file (wav) in format B or in format A. It allows the import of a single multichannel audio file or
+                                four mono files.</li>
+                            <li><b>Export: </b>Through Plotly, you export the three-dimensional graphic in an interactive HTML file. The visualization allows to rotate the view to visualize the IR. It also supports exporting the data to an Excel file.</li>
+                        </ul>
+                        <span class="categories"><i class="fa fa-tag"></i>Toolbar</span>
+                    </div>
                 </div>
                 <div class="link-box">
                     <a class="popup-modal-dismiss button btn-close">Close</a>
                 </div>
             </div>
             <div id="modal-02" class="popup-modal mfp-hide">
-                <img class="scale-with-grid" src="images/Configuration%20tab.png" alt="" />
-                <div class="description-box">
-                    <h4>Configuration tab</h4>
-                    <h5>Windowing</h5>
-                    <ul>
-                        <li><b>Overlapping: </b>Mode "allowed full overlap (Full)" between windows or "allowed overlap of half window (Half)".</li>
-                        <li><b>Windows size: </b>Size of the integration window.</li>
-                        <li><b>Quantity: </b>Number of windows considered.</li>
-                        <li><b>Threshold: </b>Limit the difference in the maximum sound pressure level that a window can have with direct sound.</li>
-                    </ul>
-                    <h5>Audio Editing</h5>
-                    <ul>
-                        <li><b>Audio Cutter: </b>Number of milliseconds of analysis.</li>
-                        <li><b>Filtering: </b>Optional application of low pass and high pass linear phase filters, and their cutting frequencies. Typically a low pass at 5 kHz is used to avoid loss of coherence.</li>
-                        <li><b>Conversion type: </b>It allows to choose the type of conversion to sound intensity between the instantaneous mode and through the application of the FFT.</li>
-                    </ul>
-                    <span class="categories"><i class="fa fa-tag"></i>Configuration Tab</span>
+                <div class="scrolling-content">
+
+                    <img class="scale-with-grid" src="images/Configuration%20tab.png" alt="" />
+                    <p class="scroll_button animated bounce infinite">
+                        <a href="#" onclick="scrollWin();"><i class="fa fa-angle-double-down"></i></a>
+                    </p>
+                    <div class="description-box">
+                        <h4>Configuration tab</h4>
+                        <h5>Windowing</h5>
+                        <ul>
+                            <li><b>Overlapping: </b>Mode "allowed full overlap (Full)" between windows or "allowed overlap of half window (Half)".</li>
+                            <li><b>Windows size: </b>Size of the integration window.</li>
+                            <li><b>Quantity: </b>Number of windows considered.</li>
+                            <li><b>Threshold: </b>Limit the difference in the maximum sound pressure level that a window can have with direct sound.</li>
+                        </ul>
+                        <h5>Audio Editing</h5>
+                        <ul>
+                            <li><b>Audio Cutter: </b>Number of milliseconds of analysis.</li>
+                            <li><b>Filtering: </b>Optional application of low pass and high pass linear phase filters, and their cutting frequencies. Typically a low pass at 5 kHz is used to avoid loss of coherence.</li>
+                            <li><b>Conversion type: </b>It allows to choose the type of conversion to sound intensity between the instantaneous mode and through the application of the FFT.</li>
+                        </ul>
+                        <span class="categories"><i class="fa fa-tag"></i>Configuration Tab</span>
+                    </div>
                 </div>
                 <div class="link-box">
                     <a class="popup-modal-dismiss button btn-close">Close</a>
                 </div>
             </div>
             <div id="modal-03" class="popup-modal mfp-hide">
-                <img class="scale-with-grid" src="images/Measurement%20List%20tab.png" width="100%" alt="" />
-                <div class="description-box">
-                    <h4>Measurement List tab</h4>
-                    <p>The tab of the measurement list allows you to select a previous calculation, discard calculations and position calculations in a plant graph.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>Measurement List tab</span>
+                <div class="scrolling-content">
+
+                    <img class="scale-with-grid" src="images/Measurement%20List%20tab.png" width="100%" alt="" />
+                    <p class="scroll_button animated bounce infinite">
+                        <a href="#" onclick="scrollWin();"><i class="fa fa-angle-double-down"></i></a>
+                    </p>
+                    <div class="description-box">
+                        <h4>Measurement List tab</h4>
+                        <p>The tab of the measurement list allows you to select a previous calculation, discard calculations and position calculations in a plant graph.</p>
+                        <span class="categories"><i class="fa fa-tag"></i>Measurement List tab</span>
+                    </div>
                 </div>
                 <div class="link-box">
                     <a class="popup-modal-dismiss button btn-close">Close</a>
                 </div>
             </div>
             <div id="modal-04" class="popup-modal mfp-hide">
+                <div class="scrolling-content">
                 <img class="scale-with-grid" src="images/Direct%20Sound%20tab.png" width="100%" alt="" />
+                <p class="scroll_button animated bounce infinite">
+                    <a href="#" onclick="scrollWin();"><i class="fa fa-angle-double-down"></i></a>
+                </p>
                 <div class="description-box">
                     <h4>Direct Sound Selection tab</h4>
                     <p>Finally, the direct sound selection tab allows you to choose which of the first windows represents the direct sound. For this pre-selection, the highest level peaks are obtained and interpreted as the center of the direct sound. For
                         a first instance of calculation, the first one is taken in a temporal order. After the calculation is made, the user can choose to modify the direct sound chosen automatically by one of the others and perform the calculations again.</p>
                     <span class="categories"><i class="fa fa-tag"></i>Direct Sound Selection Tab</span>
                 </div>
+                </div>
                 <div class="link-box">
                     <a class="popup-modal-dismiss button btn-close">Close</a>
                 </div>
             </div>
             <div id="modal-05" class="popup-modal mfp-hide">
+                <div class="scrolling-content">
                 <img class="scale-with-grid" src="images/plot_1.png" alt="" />
+                <p class="scroll_button animated bounce infinite">
+                    <a href="#" onclick="scrollWin();"><i class="fa fa-angle-double-down"></i></a>
+                </p>
                 <div class="description-box">
                     <h4>2D graphics panel</h4>
                     <ul>
@@ -416,12 +431,17 @@
                     </ul>
                     <span class="categories"><i class="fa fa-tag"></i>2D graphics panel</span>
                 </div>
+                </div>
                 <div class="link-box">
                     <a class="popup-modal-dismiss button btn-close">Close</a>
                 </div>
             </div>
             <div id="modal-06" class="popup-modal mfp-hide">
+                <div class="scrolling-content">
                 <img class="scale-with-grid" src="images/plot_2.png" alt="" />
+                <p class="scroll_button animated bounce infinite">
+                    <a href="#" onclick="scrollWin();"><i class="fa fa-angle-double-down"></i></a>
+                </p>
                 <div class="description-box">
                     <h4>2D graphics panel</h4>
                     <p>The program presents the response of the linear phase FIR filter, of order 400 used in each window and additionally a spectrogram of the pressure level signals to understand the energy dispersion of the IR</p>
@@ -430,35 +450,45 @@
                 <div class="link-box">
                     <a class="popup-modal-dismiss button btn-close">Close</a>
                 </div>
+                </div>
             </div>
             <div id="modal-07" class="popup-modal mfp-hide">
-                <img class="scale-with-grid" src="images/plot_3.png" alt="" />
-                <div class="description-box">
-                    <h4>2D graphics panel</h4>
-                    <p>A plant view allows you to evaluate several IRs at the same time. For this it is necessary to have a plant view of the measurements. The program generates a top view of each IR and then place them manually in the plant view.</p>
-                    <p>In the last tab, the calculated values of each window are shown in time, magnitude, azimuth and elevation.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>2D graphics panel</span>
+                <div class="scrolling-content">
+                    <img class="scale-with-grid" src="images/plot_3.png" alt="" />
+                    <p class="scroll_button animated bounce infinite">
+                        <a href="#" onclick="scrollWin();"><i class="fa fa-angle-double-down"></i></a>
+                    </p>
+                    <div class="description-box">
+                        <h4>2D graphics panel</h4>
+                        <p>A plant view allows you to evaluate several IRs at the same time. For this it is necessary to have a plant view of the measurements. The program generates a top view of each IR and then place them manually in the plant view.</p>
+                        <p>In the last tab, the calculated values of each window are shown in time, magnitude, azimuth and elevation.</p>
+                        <span class="categories"><i class="fa fa-tag"></i>2D graphics panel</span>
+                    </div>
                 </div>
                 <div class="link-box">
                     <a class="popup-modal-dismiss button btn-close">Close</a>
                 </div>
             </div>
             <div id="modal-08" class="popup-modal mfp-hide">
-                <img class="scale-with-grid" src="images/plot_3d.png" alt="" />
-                <div class="description-box">
-                    <h4>3D graphics panel</h4>
-                    <p>The information are represented as sound vectors with the same origin and different direction. The vectors represents each of the time windows. Its magnitude is given by the energy sum the intensity vectors. The magnitudes are normalized
-                        based on the direct sound. The color symbolizes the temporal distance to the direct sound (red to blue).</p>
-                    <span class="categories"><i class="fa fa-tag"></i>3D graphics panel</span>
+                <div class="scrolling-content">
+                    <img class="scale-with-grid" src="images/plot_3d.png" width="100%"  alt="" />
+                    <p class="scroll_button animated bounce infinite">
+                        <a href="#" onclick="scrollWin();"><i class="fa fa-angle-double-down"></i></a>
+                    </p>
+                    <div class="description-box">
+                        <h4>3D graphics panel</h4>
+                        <p>The information are represented as sound vectors with the same origin and different direction. The vectors represents each of the time windows. Its magnitude is given by the energy sum the intensity vectors. The magnitudes are normalized
+                            based on the direct sound. The color symbolizes the temporal distance to the direct sound (red to blue).</p>
+                        <span class="categories"><i class="fa fa-tag"></i>3D graphics panel</span>
+                    </div>
                 </div>
                 <div class="link-box">
                     <a class="popup-modal-dismiss button btn-close">Close</a>
                 </div>
             </div>
             <div id="modal-09" class="popup-modal mfp-hide">
-                <a href="https://plot.ly/~nahuel/11/?share_key=xcG4olaHcDe05uv8G172eY" target="_blank" title="Plot 11" style="display: block; text-align: center;"><img src="https://plot.ly/~nahuel/11.png?share_key=xcG4olaHcDe05uv8G172eY" alt="Plot 11" style="max-width: 100%;width: 800px;" width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-                <script data-plotly="nahuel:11" sharekey-plotly="xcG4olaHcDe05uv8G172eY" src="https://plot.ly/embed.js" async></script>
-
+                <div class="scrolling-content">
+                    
                 <div class="description-box">
                     <h4>3D graphics panel</h4>
                     <p>The information are represented as sound vectors with the same origin and different direction. The vectors represents each of the time windows. Its magnitude is given by the energy sum the intensity vectors. The magnitudes are normalized
@@ -469,6 +499,7 @@
                     <a class="popup-modal-dismiss button btn-close">Close</a>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <section id="call-to-action">
@@ -488,6 +519,117 @@
         </div>
     </section>
     <section id="Examples">
+        <h1 class="section-title">Use Case Examples</h1>
+        <div id="exampleCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#exampleCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#exampleCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item-wrap item active">
+                    <a href="#modal-B01" title="">
+                        <div class="carousel-caption">
+                            <h1>St. Margaret's Church, York</h1>
+                            <p>Click for more information</p>
+                        </div>
+                        <img alt="" src="images/st margaret planta.png" style="width:100%;">
+                    </a>
+                </div>
+
+                <div class="item-wrap item">
+                    <a href="#modal-B02" title="">
+                        <div class="carousel-caption">
+                            <h1>St. Patrick's Church, Patrington</h1>
+                            <p>Click for more information</p>
+                        </div>
+                        <img src="images/st%20patrick%20planta.jpg" alt="Chicago" style="width:100%;">
+                    </a>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#exampleCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#exampleCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <div id="modal-B01" class="popup-modal mfp-hide">
+                <div class="scrolling-content">
+                    <img class="scale-with-grid" src="images/st margaret planta.png" alt="" />
+                    <p class="scroll_button animated bounce infinite">
+                        <a href="#" onclick="scrollWin();"><i class="fa fa-angle-double-down"></i></a>
+                    </p>
+                    <div class="description-box">
+                        <h4>St. Margaret's Church, York</h4>
+                        <h6>Details and original audios can be found in the <a href="www.openairlib.net/auralizationdb/content/st-margarets-church-national-centre-early-music">OpenAir library</a></h6>.
+                        <p>
+                            Results were not manually oriented towards the source, the directions are produced by the algorithm interpretation.
+                        </p>
+                        <p>
+                            The measuring positions of the corners acquire lateral energetic components comparable in magnitude to the direct sound. This is due, to a greater extent, to the proximity of the surfaces and their low absorption rate. This situation is not reflected in the central positions, where the reflecting surfaces are arranged at a greater distance. In the same way it is clearly observed that in the position closest to the source, the direct sound acquires a greater degree of prominence with respect to the graphed vectors. This is due to the fact that the lateral reflections affect with less energy, and the direct soundis more influential.
+                        </p>
+                        <div class="iplot_container">
+                            <h5>Position 5</h5>
+                            <h6>Interactive graphic: Drag the cursor to rotate</h6>
+                            <iframe class="iplot" src="examples/st_margaret_5.html" frameborder="1"></iframe>
+                        </div>
+                        <div class="iplot_container">
+                            <h5>Position 16</h5>
+                            <h6>Interactive graphic: Drag the cursor to rotate</h6>
+                            <iframe class="iplot" src="examples/st_margaret_16.html" frameborder="1"></iframe>
+                        </div>
+                        <p>
+                            In the same way it is clearly observed that in the position closest to the source, the direct sound acquires a greater degree of prominence with respect to the graphed vectors. This is due to the fact that the lateral reflections affect with less energy, and the direct sound is more influential.
+                        </p>
+                        <p>
+                            The left lateral position acquires a pattern that differs from the rest of the positions. The direct sound is very weakened in comparison to its left lateral energy of great magnitude and immediate to the direct sound, reason why it can be inferred that it is a very committed zone. In it there is a lot of energy coming from the back and right, that although it is a little more distant temporarily to the direct sound, it remains above the critical range of sound clarity. This situation is not repeated at the opposite end of the room. In this place, early energy predominates over late energy, therefore the presence of direct sou nd plays a major role accompanied by a strong
+                        </p>
+                    </div>
+                </div>
+                <div class="link-box">
+                    <a class="popup-modal-dismiss button btn-close">Close</a>
+                </div>
+            </div>
+            <div id="modal-B02" class="popup-modal mfp-hide">
+                <div class="scrolling-content">
+                    <img class="scale-with-grid" src="images/st%20patrick%20planta.jpg" alt="" />
+                    <p class="scroll_button animated bounce infinite">
+                        <a href="#" onclick="scrollWin();"><i class="fa fa-angle-double-down"></i></a>
+                    </p>
+                    <div class="description-box">
+                        <h4>St. Patrick's Church, Patrington</h4>
+                        <h6>Details and original audios can be found in the <a href="http://www.openairlib.net/auralizationdb/content/st-patricks-church-patrington">OpenAir library</a></h6>.
+                        <p>In the figure we can observe the distribution of the measurement and source positions, with the results of IR obtained. In this case, the measurement positions maintained the microphone orientation in the direction of the source.
+                        </p>
+                        <p>It should be noted how the different lateral contributions are arranged in each of the measurement positions. This is mainly due to the proximity of the reflecting surfaces to the positions of the microphones.
+                        </p>
+                        <div class="iplot_container">
+                            <h5>Position R1</h5>
+                            <h6>Interactive graphic: Drag the cursor to rotate</h6>
+                            <iframe class="iplot" src="examples/st_patrick_1.html" frameborder="1"></iframe>
+                        </div>
+                        <div class="iplot_container">
+                            <h5>Position R2</h5>
+                            <h6>Interactive graphic: Drag the cursor to rotate</h6>
+                            <iframe class="iplot" src="examples/st_patrick_2.html" frameborder="1"></iframe>
+                        </div>
+                        <div class="iplot_container">
+                            <h5>Position R3</h5>
+                            <h6>Interactive graphic: Drag the cursor to rotate</h6>
+                            <iframe class="iplot" src="examples/st_patrick_3.html" frameborder="1"></iframe>
+                        </div>
+                        <p>The position R1 maintains a great energetic influence of the frontal field with proximity to the direct sound. It is possible to observe how the rear energy radiates with a lower level and in times longer than 120ms. From a superior view, it is possible to notice strong lateral contributions, product of first order reflections with the walls of the room.</p>
+                        <p>The R2 position maintains a great influence of the direct sound, product of which it is located in the central zone of the room, where the sound energy disperses easily. Together the source is located in proximity to the measurement position, favoring its influence on the plotted IR. There is also a great influence of lower frontal energy within 50ms, probably originating from a low order reflection with the ground of the room.</p>
+                        <p>The R3 position contains a large amount of surrounding reverberant energy, this can mean a deterioration in the sound clarity of the listener. A large amount of frontal energy is observed coming from different reflections at times close to the direct sound. The back energy is weaker and corresponds to the late energy close to 200 ms.</p>
+                    </div>
+                </div>
+                <div class="link-box">
+                    <a class="popup-modal-dismiss button btn-close">Close</a>
+                </div>
+            </div>
+        </div>
 
     </section>
     <section id="try_it">
@@ -541,7 +683,7 @@
                     <img class="profiles-pic wow zoomIn" src="images/alejandro.jpg" alt="" height="60px">
                     <h1>Lead Acoustic Developer</h1>
                     <h2>Alejandro Bidondo</h2>
-                    <h3>PhD on Acoustical Engineer</h3>
+                    <h3>PhD of Acoustical Engineer</h3>
                     <a href="https://www.linkedin.com/in/alejandro-bidondo-357a8628/" class="button">PORTFOLIO</a>
                 </div>
             </div>
@@ -610,7 +752,7 @@
     <script src="./js/waypoints.js"></script>
     <script src="./js/jquery.fittext.js"></script>
     <script src="./js/magnific-popup.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <script src="./js/wow.min.js"></script>
     <script src="./js/jquery.nicescroll.min.js"></script>
     <script src="./js/script.js"></script>

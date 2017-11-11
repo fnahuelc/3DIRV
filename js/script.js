@@ -277,7 +277,11 @@ jQuery(document).ready(function($) {
         }, 500);
     });
 
-    $('a.no-move').on('click', function(e) {
+    $(".scrolling-content").animate({scrollTop: $(".scrolling-content> div:first-of-type").position().top});
 
-    })
+
 });
+
+function scrollWin() {
+    $(".scrolling-content").animate({ scrollTop:500 }, "fast");
+}

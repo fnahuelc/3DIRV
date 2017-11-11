@@ -160,7 +160,7 @@ header .banner {
     margin: 0 auto;
     width: 85%;
     padding-bottom: 30px;
-    s text-align: center;
+    text-align: center;
     z-index: 1;
     position: relative;
 }
@@ -531,7 +531,7 @@ body.show-menu #left-nav {
 /* ------------------------------------------------------------------ */
 
 #about {
-    background: url(../images/planta.jpg) no-repeat fixed center center / cover;
+    background: url('../images/st patrick planta.jpg') no-repeat fixed center center / cover;
     overflow: hidden;
 }
 
