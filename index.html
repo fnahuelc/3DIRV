@@ -13,6 +13,8 @@
     <meta name="description" content="Sofware for Acoustic Diagnosis and Visualization">
     <meta name="author" content="Nahuel Cacavelos fnahuelc@gmail.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -22,6 +24,8 @@
     <link rel="stylesheet" href="css/owl.theme.css">
     <link rel="stylesheet" href="css/dir360.css">
     <link rel="shortcut icon" href="images/IRicon.png">
+
+
 </head>
 
 <body>
@@ -52,9 +56,9 @@
             <div class="banner-text">
                 <h1 class="responsive-headline wow zoomIn">DIR<span>360</span></h1>
                 <h3 class="wow fadeInUp">
-                    <span>Desktop App</span> for <span>diagnosis</span> and <span>investigation</span> of <span>rooms acoustics</span><br>
-                    <i>"With just a an ambisonic microphone recording one can <br>
-                    calculate, plot and compare intensity vectors in three dimensions."</i>
+                    <span>Desktop App</span> for <span>diagnosis</span> and <span>investigation</span> of <span>room acoustic</span><br>
+                    <i>"With just a spatial impulse response one can <br>
+                        calculate, plot and compare intensity vectors in three dimensions."</i>
                 </h3>
             </div>
         </div>
@@ -93,29 +97,40 @@
                     </div>
                 </div>
 
-                <div class="six columns main-col wow fadeIn">
+                <div id="the_parent" class="six columns main-col wow fadeIn">
                     <div class="arrow-left"></div>
-                    <h3 class="features-title">Features:</h3>
-                    <ul class="features">
-                        <li>Acoustic diagnosis by spatial and temporal visualization of impulse responses.</li>
-                        <li>Segregation of direct sound and subsequent reflections of a room.</li>
-                        <li>Ease detection of acoustical problems.</li>
-                        <li>Useful for architectural acoustics, audio production and industrialnoise.</li>
-                    </ul>
-                    <h3 class="features-title">Applications:</h3>
-                    <ul class="features">
-                        <li>The advantage in the comprehension and characterization of the acoustic behavior of a room gets improved with the 3D impulse response measurements.
-                        </li>
-                        <li>Obtaining the signal direction allows us to visualize the temporal distribution characteristics of the room reflections in space, observe the directional distribution of early and late energy, and identify areas that generate unwanted
-                            reflections.
-                        </li>
-                        <li>Moreover, the comparison of the spatial components of impulse responses of various rooms can contribute to identify differences and similarities in acoustic characteristics.
-                        </li>
-                        <li>This acoustical software provides a complete set of techniques for carrying out an assessment from different perspectives.
-                        </li>
-                    </ul>
+
+                    <button data-toggle="collapse" data-target="#demo">Features</button>
+
+                    <div id="demo" class="collapse">
+                        <ul class="features center">
+                            <li>Acoustic diagnosis by spatial and temporal visualization of impulse responses.</li>
+                            <li>Segregation of direct sound and subsequent reflections of a room.</li>
+                            <li>Ease detection of acoustical problems.</li>
+                            <li>Useful for architectural acoustics, audio production and industrialnoise.</li>
+                        </ul>
+                    </div>
+
+                    <button data-toggle="collapse" data-target="#demo2" data-parent="#the_parent">Applications</button>
+
+                    <div id="demo2" class="collapse">
+                        <ul class="features">
+                            <li>The advantage in the comprehension and characterization of the acoustic behavior of a room gets improved with the 3D impulse response measurements.
+                            </li>
+                            <li>Obtaining the signal direction allows us to visualize the temporal distribution characteristics of the room reflections in space, observe the directional distribution of early and late energy, and identify areas that generate
+                                unwanted reflections.
+                            </li>
+                            <li>Moreover, the comparison of the spatial components of impulse responses of various rooms can contribute to identify differences and similarities in acoustic characteristics.
+                            </li>
+                            <li>This acoustical software provides a complete set of techniques for carrying out an assessment from different perspectives.
+                            </li>
+                        </ul>
+                    </div>
+
+
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <section id="resume">
@@ -152,7 +167,6 @@
                                 <h4>Medellin, Colombia</h4>
                                 <p><strong>Meeting of sound engineering, University of San Buenaventura</strong></p>
                                 <a href="http://euis.doodlekit.com/" class="button">Download full paper</a>
-
                             </div>
                         </li>
                         <li class="timeline-event">
@@ -596,6 +610,7 @@
     <script src="./js/waypoints.js"></script>
     <script src="./js/jquery.fittext.js"></script>
     <script src="./js/magnific-popup.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="./js/wow.min.js"></script>
     <script src="./js/jquery.nicescroll.min.js"></script>
     <script src="./js/script.js"></script>

@@ -277,4 +277,7 @@ jQuery(document).ready(function($) {
         }, 500);
     });
 
+    $('a.no-move').on('click', function(e) {
+
+    })
 });

@@ -650,7 +650,7 @@ body.show-menu #left-nav {
 }
 
 #about .main-col {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
     height: 600px;
     padding: 50px;
 }
