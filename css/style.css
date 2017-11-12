@@ -181,13 +181,14 @@ header .banner-text h1 span {
     text-transform: uppercase;
 }
 
-header .banner-text h3 {
+header .banner-text h3, header .banner-text h2 {
     font-family: 'Raleway', sans-serif;
     color: #FEFEFE;
     margin: 0 auto;
     width: 70%;
 }
 
+header .banner-text h2 span,
 header .banner-text h3 span,
 header .banner-text h3 a {
     color: #fff;
