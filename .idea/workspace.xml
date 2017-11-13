@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="989249f1-808b-4d79-b68f-62c0d4c32efd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg-blur.jpg" afterPath="$PROJECT_DIR$/images/bg-blur.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg.jpg" afterPath="$PROJECT_DIR$/images/bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/toolbar.png" afterPath="$PROJECT_DIR$/images/toolbar.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="website.iws" />
@@ -373,7 +372,7 @@
       <workItem from="1510421148516" duration="9557000" />
       <workItem from="1510432365509" duration="8542000" />
       <workItem from="1510515306043" duration="1704000" />
-      <workItem from="1510542316210" duration="2645000" />
+      <workItem from="1510542316210" duration="2923000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring">
       <created>1509368402937</created>
@@ -424,11 +423,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510544645861</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lower quality images">
+      <created>1510545404215</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1510545404215</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59568000" />
+    <option name="totallyTimeSpent" value="59846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -476,7 +482,8 @@
     <MESSAGE value="Rename website" />
     <MESSAGE value="Fix css" />
     <MESSAGE value="Upgrading loading iframes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgrading loading iframes" />
+    <MESSAGE value="Lower quality images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lower quality images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
