@@ -528,7 +528,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="item-wrap item active">
-                    <a href="#modal-B01" title="">
+                    <a href="#modal-B01" onclick="loadExample1();" title="">
                         <div class="carousel-caption">
                             <h1>St. Margaret's Church, York</h1>
                             <p>Click for more information</p>
@@ -538,7 +538,7 @@
                 </div>
 
                 <div class="item-wrap item">
-                    <a href="#modal-B02" title="">
+                    <a href="#modal-B02" onclick="loadExample2();" title="">
                         <div class="carousel-caption">
                             <h1>St. Patrick's Church, Patrington</h1>
                             <p>Click for more information</p>
@@ -574,12 +574,12 @@
                         <div class="iplot_container">
                             <h5>Position 5</h5>
                             <h6>Interactive graphic: Drag the cursor to rotate</h6>
-                            <iframe class="iplot" src="examples/st_margaret_5.html" frameborder="1"></iframe>
+                            <iframe class="iplot" data-src="examples/st_margaret_5.html" frameborder="1"></iframe>
                         </div>
                         <div class="iplot_container">
                             <h5>Position 16</h5>
                             <h6>Interactive graphic: Drag the cursor to rotate</h6>
-                            <iframe class="iplot" src="examples/st_margaret_16.html" frameborder="1"></iframe>
+                            <iframe class="iplot" data-src="examples/st_margaret_16.html" frameborder="1"></iframe>
                         </div>
                         <p>
                             In the same way it is clearly observed that in the position closest to the source, the direct sound acquires a greater degree of prominence with respect to the graphed vectors. This is due to the fact that the lateral reflections affect with less energy, and the direct sound is more influential.
@@ -609,17 +609,17 @@
                         <div class="iplot_container">
                             <h5>Position R1</h5>
                             <h6>Interactive graphic: Drag the cursor to rotate</h6>
-                            <iframe class="iplot" src="examples/st_patrick_1.html" frameborder="1"></iframe>
+                            <iframe id="patrick1" class="iplot" data-src="examples/st_patrick_1.html" frameborder="1"></iframe>
                         </div>
                         <div class="iplot_container">
                             <h5>Position R2</h5>
                             <h6>Interactive graphic: Drag the cursor to rotate</h6>
-                            <iframe class="iplot" src="examples/st_patrick_2.html" frameborder="1"></iframe>
+                            <iframe id="patrick2" class="iplot" data-src="examples/st_patrick_2.html" frameborder="1"></iframe>
                         </div>
                         <div class="iplot_container">
                             <h5>Position R3</h5>
                             <h6>Interactive graphic: Drag the cursor to rotate</h6>
-                            <iframe class="iplot" src="examples/st_patrick_3.html" frameborder="1"></iframe>
+                            <iframe id="patrick3" class="iplot" data-src="examples/st_patrick_3.html" frameborder="1"></iframe>
                         </div>
                         <p>The position R1 maintains a great energetic influence of the frontal field with proximity to the direct sound. It is possible to observe how the rear energy radiates with a lower level and in times longer than 120ms. From a superior view, it is possible to notice strong lateral contributions, product of first order reflections with the walls of the room.</p>
                         <p>The R2 position maintains a great influence of the direct sound, product of which it is located in the central zone of the room, where the sound energy disperses easily. Together the source is located in proximity to the measurement position, favoring its influence on the plotted IR. There is also a great influence of lower frontal energy within 50ms, probably originating from a low order reflection with the ground of the room.</p>

@@ -285,3 +285,14 @@ jQuery(document).ready(function($) {
 function scrollWin() {
     $(".scrolling-content").animate({ scrollTop:500 }, "fast");
 }
+
+function loadExample1(){
+    $("#modal-B01 .iplot").each(function(){
+        $(this).attr("src", $(this).data("src"));
+    });
+};
+function loadExample2(){
+    $("#modal-B02 .iplot").each(function(){
+        $(this).attr("src", $(this).data("src"));
+    });
+};
