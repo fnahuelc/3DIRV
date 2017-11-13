@@ -278,6 +278,18 @@ jQuery(document).ready(function($) {
     });
 
     $(".scrolling-content").animate({scrollTop: $(".scrolling-content> div:first-of-type").position().top});
+    $('.item-wrap a').click(function () {
+        href = $(this).attr('href')
+        $(href+' .scrolling-content').each(function(){
+            console.log($(this)[0].scrollHeight,$(this)[0].clientHeight)
+            if($(this)[0].scrollHeight==$(this)[0].clientHeight){
+                console.log($(this).find('.scroll_button'))
+                $(this).find('.scroll_button').hide();
+            }
+        });}
+    )
+
+
 
 
 });
