@@ -190,24 +190,6 @@ jQuery(document).ready(function($) {
         mainClass: 'mfp-fade'
 
     });
-    $('.examples-wrap a').magnificPopup({
-
-        type: 'inline',
-        fixedContentPos: false,
-        removalDelay: 200,
-        showCloseBtn: false,
-        mainClass: 'mfp-fade',
-        callbacks: {
-            close: function() {
-                $(".iplot").each(function () {
-                    if ($(this).attr('src') == $(this).data("src")) {
-                        $(this).attr("src", null);
-                    }
-                })
-            }
-      }
-
-    });
     $.magnificPopup.instance.close = function () {
 
         $(".iplot").each(function () {
