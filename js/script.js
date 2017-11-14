@@ -196,13 +196,31 @@ jQuery(document).ready(function($) {
         fixedContentPos: false,
         removalDelay: 200,
         showCloseBtn: false,
-        mainClass: 'mfp-fade'
+        mainClass: 'mfp-fade',
+        callbacks: {
+            close: function() {
+                $(".iplot").each(function () {
+                    if ($(this).attr('src') == $(this).data("src")) {
+                        $(this).attr("src", null);
+                    }
+                })
+            }
+      }
 
     });
+    $.magnificPopup.instance.close = function () {
 
+        $(".iplot").each(function () {
+            if ($(this).attr('src') == $(this).data("src")) {
+                $(this).attr("src", null);
+            }
+        })
+        $.magnificPopup.proto.close.call(this);
+    };
     $(document).on('click', '.popup-modal-dismiss', function(e) {
         e.preventDefault();
         $.magnificPopup.close();
+
     });
 
 
@@ -309,19 +327,13 @@ function loadExample1(){
             }
         });
     }, 100);
-        $("#Examples .iplot").each(function(){
-            $(this).attr("src", null);
-    });
 };
 function loadExample2(){
-        setTimeout(function(){
-            $("body>div>div>div>#modal-B02 .iplot").each(function(){
-            if ($(this).attr('src')=== undefined) {
-                $(this).attr("src", $(this).data("src"));
-            }
-        }, 100);
-            $("#Examples .iplot").each(function(){
-            $(this).attr("src", null);
-    });
-    });
+    setTimeout(function(){
+        $("body>div>div>div>#modal-B02 .iplot").each(function(){
+        if ($(this).attr('src')=== undefined) {
+            $(this).attr("src", $(this).data("src"));
+           }
+        });
+    }, 100);
 };
