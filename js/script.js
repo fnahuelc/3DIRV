@@ -190,6 +190,15 @@ jQuery(document).ready(function($) {
         mainClass: 'mfp-fade'
 
     });
+    $('.examples-wrap a').magnificPopup({
+
+        type: 'inline',
+        fixedContentPos: false,
+        removalDelay: 200,
+        showCloseBtn: false,
+        mainClass: 'mfp-fade'
+
+    });
 
     $(document).on('click', '.popup-modal-dismiss', function(e) {
         e.preventDefault();
@@ -281,17 +290,11 @@ jQuery(document).ready(function($) {
     $('.item-wrap a').click(function () {
         href = $(this).attr('href')
         $(href+' .scrolling-content').each(function(){
-            console.log($(this)[0].scrollHeight,$(this)[0].clientHeight)
             if($(this)[0].scrollHeight==$(this)[0].clientHeight){
-                console.log($(this).find('.scroll_button'))
                 $(this).find('.scroll_button').hide();
             }
         });}
     )
-
-
-
-
 });
 
 function scrollWin() {
@@ -299,12 +302,26 @@ function scrollWin() {
 }
 
 function loadExample1(){
-    $("#modal-B01 .iplot").each(function(){
-        $(this).attr("src", $(this).data("src"));
+    setTimeout(function(){
+        $("body>div>div>div>#modal-B01 .iplot").each(function(){
+            if ($(this).attr('src')=== undefined){
+                $(this).attr("src", $(this).data("src"));
+            }
+        });
+    }, 100);
+        $("#Examples .iplot").each(function(){
+            $(this).attr("src", null);
     });
 };
 function loadExample2(){
-    $("#modal-B02 .iplot").each(function(){
-        $(this).attr("src", $(this).data("src"));
+        setTimeout(function(){
+            $("body>div>div>div>#modal-B02 .iplot").each(function(){
+            if ($(this).attr('src')=== undefined) {
+                $(this).attr("src", $(this).data("src"));
+            }
+        }, 100);
+            $("#Examples .iplot").each(function(){
+            $(this).attr("src", null);
+    });
     });
 };
