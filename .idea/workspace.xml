@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="989249f1-808b-4d79-b68f-62c0d4c32efd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/st margaret planta numbers.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="website.iws" />
@@ -402,7 +401,7 @@
       <workItem from="1510585865180" duration="4735000" />
       <workItem from="1510669898569" duration="6787000" />
       <workItem from="1510685282535" duration="737000" />
-      <workItem from="1510720708302" duration="268000" />
+      <workItem from="1510720708302" duration="447000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring">
       <created>1509368402937</created>
@@ -551,11 +550,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510719703675</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="label margaret plan">
+      <created>1510721054880</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1510721054880</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77372000" />
+    <option name="totallyTimeSpent" value="77551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -631,7 +637,8 @@
     <MESSAGE value="Added iframe fail" />
     <MESSAGE value="Added image" />
     <MESSAGE value="Fixing div closing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing div closing" />
+    <MESSAGE value="label margaret plan" />
+    <option name="LAST_COMMIT_MESSAGE" value="label margaret plan" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
