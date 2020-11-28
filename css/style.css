@@ -1656,7 +1656,7 @@ awards {
     outline: none;
     font-size: 15px;
     line-height: 24px;
-    width: 90%;
+    width: 100%;
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
