@@ -82,7 +82,7 @@ body {
 }
 
 .loader {
-    animation: animate 1.5s linear infinite;
+    animation: animate 2s ease infinite;
     clip: rect(0, 80px, 80px, 40px);
     height: 80px;
     width: 80px;
