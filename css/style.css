@@ -64,19 +64,17 @@ body {
 
 .loader {
     width: 100%;
-    position: relative;
-    z-index: 999;
+    max-width: 700px;
     margin: 0 auto;
     padding: 0;
-    max-width: 700px;
-}
+    position: relative; }
 
-.loader svg {
+.loading svg {
     width: 100%;
     height: 100%;
 }
 
-.loader #pulsar{
+.loading #pulsar{
     stroke-dasharray:281;
     -webkit-animation: dash 2.5s infinite linear forwards;
 }
@@ -85,6 +83,9 @@ body {
 @-webkit-keyframes dash{ from{stroke-dashoffset:814;} to {stroke-dashoffset:-814;}}
 
 #preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
     z-index: 9999;

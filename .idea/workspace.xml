@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="989249f1-808b-4d79-b68f-62c0d4c32efd" name="Default" comment="agregando 2 ejemplos para cantidad de ventanas">
+    <list default="true" id="989249f1-808b-4d79-b68f-62c0d4c32efd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,25 +22,59 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>of a</find>
+      <find>on a</find>
+      <find>on ac</find>
+      <find>of ac</find>
+      <find>smoothscroll</find>
+      <find>#about</find>
+      <find>bou</find>
+      <find>portfolio-wrapper2</find>
+      <find>planta</find>
+      <find>dir</find>
+      <find>www.</find>
+      <find>ww</find>
+      <find>https://ir360.software/</find>
+      <find>ma</find>
+      <find>max</find>
+      <find>fonts</find>
+      <find>maxc</find>
+      <find>h</find>
+      <find>http;:</find>
+      <find>http://</find>
+      <find>http:</find>
+      <find>onclick</find>
+      <find>console</find>
+      <find>windows</find>
+      <find>console.log</find>
+      <find>wra</find>
+      <find>http</find>
+      <find>iframe</find>
+      <find>docs</find>
+      <find>mac</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ir360</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/css</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1kv4Nyn5QEDeSGTxvIUplFkRbwR" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -101,7 +134,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -130,7 +162,6 @@
       <workItem from="1520828439252" duration="471000" />
       <workItem from="1523495475171" duration="80000" />
       <workItem from="1532901401419" duration="6531000" />
-      <workItem from="1606567699848" duration="4703000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring">
       <created>1509368402937</created>
@@ -318,7 +349,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -367,17 +398,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="agregando 2 ejemplos para cantidad de ventanas" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="987" y="352" width="586" height="735" key="find.popup" timestamp="1606572837070">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="531" y="369" key="Github.CreateGistDialog" timestamp="1595274943994">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="987" y="352" width="586" height="735" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1606572837070" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1606569744292">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state width="600" height="428" key="javadoc.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1606569744292" />
-    <state x="945" y="345" key="run.anything.popup" timestamp="1606570069980">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="945" y="345" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1606570069980" />
+    <state x="531" y="369" key="Github.CreateGistDialog/0.23.1440.877@0.23.1440.877" timestamp="1595274943994" />
   </component>
 </project>
