@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="989249f1-808b-4d79-b68f-62c0d4c32efd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-canopy-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/map.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pck_manager_install.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pckg_manager.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/st margaret planta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/windows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,9 +357,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="agregando 2 ejemplos para cantidad de ventanas" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1018" y="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606575450227">
+    <state x="1018" y="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606575552830">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1018" y="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1606575450227" />
+    <state x="1018" y="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1606575552830" />
   </component>
 </project>
