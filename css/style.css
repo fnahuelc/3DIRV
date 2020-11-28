@@ -61,6 +61,27 @@ body {
 
 /* ------------------------------------------------------------------ */
 
+
+.loader {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative; }
+
+.loading svg {
+    width: 100%;
+    height: 100%;
+}
+
+.loading #pulsar{
+    stroke-dasharray:281;
+    -webkit-animation: dash 2.5s infinite linear forwards;
+}
+
+/*Animation*/
+@-webkit-keyframes dash{ from{stroke-dashoffset:814;} to {stroke-dashoffset:-814;}}
+
 #preloader {
     position: fixed;
     left: 0;
@@ -81,16 +102,16 @@ body {
     /* W3C */
 }
 
-.loader {
-    animation: animate 2s ease infinite;
-    clip: rect(0, 80px, 80px, 40px);
-    height: 80px;
-    width: 80px;
-    position: absolute;
-    left: calc(50% - 40px);
-    top: calc(50% - 40px);
-    z-index: 999;
-}
+/*.loader {*/
+/*    animation: animate 2s ease infinite;*/
+/*    clip: rect(0, 80px, 80px, 40px);*/
+/*    height: 80px;*/
+/*    width: 80px;*/
+/*    position: absolute;*/
+/*    left: calc(50% - 40px);*/
+/*    top: calc(50% - 40px);*/
+/*    z-index: 999;*/
+/*}*/
 
 @keyframes animate {
     0% {
