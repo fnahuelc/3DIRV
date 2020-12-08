@@ -1290,7 +1290,7 @@ awards {
 /* popup modal */
 
 .popup-modal {
-    max-width: 550px;
+    max-width: 800px;
     background: #fff;
     position: relative;
     margin: 0 auto;
